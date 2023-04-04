@@ -1,0 +1,30 @@
+<app-header></app-header>
+<body>
+  <div>
+    <div class="row align-items-start">
+      <div class="col-3">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 650px;">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Edit Options</span>
+          </a>
+          <hr>
+          <app-owner-operation></app-owner-operation>
+          <hr>
+          <app-vehicle-operation></app-vehicle-operation>
+        </div>      
+      </div>
+      <div class="col-9">
+        <app-search></app-search>
+        <div class="row p-3 justify-content-start">
+          <div class="col-5">
+            <app-owner-details></app-owner-details>
+          </div>
+          <div class="col-4">
+            <app-vehicle-details></app-vehicle-details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
